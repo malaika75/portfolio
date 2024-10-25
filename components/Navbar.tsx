@@ -56,16 +56,28 @@ function Navbar() {
         <li className='cursor-pointer hover:text-orange-50'>Projects</li>
      </Link>
 
+<Link href="/contact">
         <li className='cursor-pointer hover:text-orange-50'>Contact</li>
+        </Link>
       </ul>
        
 
 {menuOpen && (
       <ul  className="absolute top-24 left-0 w-full bg-teal-500 text-center flex flex-col space-y-4 py-4 z-20 md:hidden">
+        <Link href="/">
           <li className='cursor-pointer hover:text-orange-50'>Home</li>
+          </Link>
+
+          <Link href="/about-us">
           <li className='cursor-pointer hover:text-orange-50'>About</li>
+          </Link>
+
+          <Link href="/projects">
           <li className='cursor-pointer hover:text-orange-50'>Projects</li>
-          <li className='cursor-pointer hover:text-orange-50'>Contact</li>
+       </Link>
+
+       <Link href="/contact">
+          <li className='cursor-pointer hover:text-orange-50'>Contact</li></Link>
         </ul>
 )}
     </div>

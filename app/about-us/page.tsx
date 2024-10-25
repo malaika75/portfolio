@@ -5,7 +5,7 @@ function aboutPage() {
     <div>
       <h1 className='text-6xl mt-20 text-center  bg-teal-600 w-14 ml-24'>About Me</h1>
 
-<div className='bg-teal-800 py-10 mt-10 mb-40 '>
+<div className='bg-teal-800 py-10 mt-14 mb-40 mx-12 shadow-[0px_0px_20px_10px_rgba(0,0,0,0.5)] '>
       <div className='w-9/12  mx-auto font-semibold text-white sm:text-xl'>
 
         <p className='mt-10'>

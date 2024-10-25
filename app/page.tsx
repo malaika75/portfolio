@@ -4,33 +4,14 @@ import React from 'react'
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useEffect , useRef } from "react";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger)
 
 function home() {
   
-  const img1 = useRef(null)
+  // const img1 = useRef(null)
   const skill= useRef(null)
-
-  // useEffect(()=>{
-  //   gsap.to(img1.current, {
-  //    duration:1,
-  //    y: -200,
-  //    yoyo:true,
-  //    repeat:-1 
-    // ease:"bounce.out",
-    // ScrollTrigger:{
-    //   trigger: img1.current,
-    //   start: "top 100%",
-    //   end:"top 30%",
-    //   scrub:true,
-    //   toggleActions: "play none none reverse"
-
-
-    // }
-     
-  //   })
-  // },[])
 
   useEffect(()=>{
     gsap.fromTo(skill.current, {
@@ -53,7 +34,7 @@ scrollTrigger:{
         }
   }
     )
-  }, [])
+  }, [skill])
   
   return (
 <div className="py-20">
@@ -72,7 +53,9 @@ I’m passionate about leveraging the latest technologies and best practices to 
 </div>
 
 <div className="flex justify-center ">
+  <Link href="/contact">
 <button className="bg-teal-500 py-3 ml-26 sm:ml-28 pt-4 sm:mt-8 md:mt-10 px-5 text-3xl font-semibold  hover:scale-150 rounded border-2 border-gray-700">HIRE ME <i className="fa-solid fa-arrow-right"></i></button>
+</Link>
 </div>
 
 {/* //page 2  */}
@@ -125,12 +108,12 @@ I’m passionate about leveraging the latest technologies and best practices to 
 <div className="grid grid-cols-1  lg:grid-cols-2 sm:flex-row">
 <div className="flex flex-col gap-10">
     <div className="h-12/12 w-96 relative group mt-32 sm:ml-20 xl:ml-52 overflow-hidden">
-      <img src="https://www.coolmathgames.com/sites/default/files/TicTacToe_OG-logo.jpg" alt="game-pic" className="border-2 border-gray-800 cursor-pointer object-cover max-w-[375px]" />
+      <Image src="https://www.coolmathgames.com/sites/default/files/TicTacToe_OG-logo.jpg" alt="game-pic" className="border-2 border-gray-800 cursor-pointer object-cover max-w-[375px]" width={500} height={500}/>
     
 <div className="absolute h-80 w-96 object-cover inset-0 flex flex-col justify-center text-center bg-teal-700 bg-opacity-0 group-hover:bg-opacity-100 cursor-pointer opacity-0 group-hover:opacity-100 transform translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out text-3xl text-white z-10">
   <h3 className="font-bold">Tic tac toe game</h3>
-  <a href="https://github.com/malaika75/frontend-projects/tree/main/TIC%20TAC%20TOE" className="text-black mt-4 text-6xl"><i className="fa-brands fa-square-github"></i></a>
-  <a href="https://tic-tac-toegame-pearl.vercel.app/"><button className="bg-teal-500 text-black text-2xl  font-semibold py-2 px-2 mt-4 border-2 border-gray-500 hover:bg-black hover:text-white rounded-xl mb-20">view project</button></a>
+  <a href="https://github.com/malaika75/frontend-projects/tree/main/TIC%20TAC%20TOE" target="_blank" className="text-black mt-4 text-6xl"><i className="fa-brands fa-square-github"></i></a>
+  <a href="https://tic-tac-toegame-pearl.vercel.app/" target="_blank"><button className="bg-teal-500 text-black text-2xl  font-semibold py-2 px-2 mt-4 border-2 border-gray-500 hover:bg-black hover:text-white rounded-xl mb-20">view project</button></a>
 </div>
 </div>
 
@@ -144,13 +127,13 @@ I’m passionate about leveraging the latest technologies and best practices to 
 
 <div className="flex flex-col gap-10">
 <div className="h-12/12 w-96 relative group lg:mt-32 sm:ml-20 lg:mx-4 xl:ml-20 overflow-hidden flex justify-center">
-      <img src="https://foundry360.com/wp-content/uploads/2020/05/art-article-raas-1.jpg" alt="game-pic" className="border-2 border-gray-800 cursor-pointer object-cover max-w-[375px]" />
+      <Image src="https://foundry360.com/wp-content/uploads/2020/05/art-article-raas-1.jpg" alt="game-pic" className="border-2 border-gray-800 cursor-pointer object-cover max-w-[375px]" width={500} height={500} />
     
 <div className="absolute h-80 w-96 object-cover inset-0 flex flex-col justify-center text-center bg-teal-700 bg-opacity-0 group-hover:bg-opacity-100 cursor-pointer opacity-0 group-hover:opacity-100 transform translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out text-3xl text-white z-10">
   <h3 className="font-bold">Recipe finder app</h3>
 
-  <a href="https://github.com/malaika75/frontend-projects/tree/main/TIC%20TAC%20TOE" className="text-black mt-4 text-6xl"><i className="fa-brands fa-square-github"></i></a>
-  <a href="https://vercel.com/malaika-zahids-projects/tic-tac-toe_game"><button className="bg-teal-500 text-black text-2xl  font-semibold py-2 px-2 mt-4 border-2 border-gray-500 hover:bg-black hover:text-white rounded-xl mb-24">view project</button></a>
+  <a href="https://github.com/malaika75/recipe-finder-app.git" target="_blank" className="text-black mt-4 text-6xl"><i className="fa-brands fa-square-github"></i></a>
+  <a href="https://recipe-finder-app-kappa.vercel.app/" target="_blank"><button className="bg-teal-500 text-black text-2xl  font-semibold py-2 px-2 mt-4 border-2 border-gray-500 hover:bg-black hover:text-white rounded-xl mb-24">view project</button></a>
 </div>
 </div>
 

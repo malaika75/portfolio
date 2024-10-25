@@ -10,11 +10,12 @@ function Footer() {
         </div>
 <div className='mt-16 sm:mr-20 mr-8'>
 <p className='md:text-3xl font-bold'>Front-end Developer | Passionate about creating seamless user experiences.</p>
-<p className='font-semibold'>connect with me: <a href='Emailto:malaika57680@gmail.com'> malaika57680@gamil.com</a></p>
+<p className='font-semibold'>connect with me: <a href='mailto:malaika57680@gmail.com'> malaika57680@gamil.com</a></p>
 
 <div className='text-3xl space-x-4'>
-<i className="fa-brands fa-linkedin" ></i>
-<i className="fa-brands fa-square-github"></i>
+
+<a href="https://www.linkedin.com/in/malaika-zahid-developer" target='_blank'><i className="fa-brands fa-linkedin" ></i></a>
+<a href="https://github.com/malaika75" target='blank'><i className="fa-brands fa-square-github"></i></a>
   </div>
   <div className='font-semibold'>
 <p className=''>Explore: <a href='/about-us' className='text-teal-600'>About</a></p>
