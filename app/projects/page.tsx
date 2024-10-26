@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-function project() {
+function Project() {
   return (
     <div>
       <section>
@@ -64,7 +64,7 @@ function project() {
 
 <div className="h-80 sm:w-96 z-0 ml-4 sm:ml-20 xl:ml-52 max-w-[320px]">
   <h2 className="font-serif sm:text-3xl text-2xl font-bold sm:mt-8">Amazon clone</h2>
-  <p className="sm:font-semibold">My first web project after learning HTML and CSS. This project replicates Amazon's homepage, showcasing my skills in basic layout design, styling, and structuring a webpage. While the design is not yet responsive, it reflects my foundational understanding of web development.</p>
+  <p className="sm:font-semibold">My first web project after learning HTML and CSS. This project replicates Amazon homepage, showcasing my skills in basic layout design, styling, and structuring a webpage. While the design is not yet responsive, it reflects my foundational understanding of web development.</p>
   <p>Note: Responsiveness improvements are planned for future updates.</p>
 </div>
 </div>
@@ -95,4 +95,4 @@ function project() {
 
 )}
 
-export default project
+export default Project

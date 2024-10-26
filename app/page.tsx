@@ -8,7 +8,7 @@ import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger)
 
-function home() {
+function Home() {
   
   // const img1 = useRef(null)
   const skill= useRef(null)
@@ -42,14 +42,14 @@ scrollTrigger:{
 <div className="text-white xl:w-9/12 sm:mx-10 lg:ml-40">
    <h1 className="font-serif font-thin border-gray-700 border-2 bg-teal-800 mb-6 
     text-center mr-36 text-3xl w-9/12 mx-4 sm:w-9/12">
-    Hey! I'm MALAIKA ZAHID</h1>
+    Hey! I&apos;m MALAIKA ZAHID</h1>
 
    <p className="sm:mx-6 sm:w-9/12 text-gray-700 font-mono font-semibold w-72 mx-4">
     As a dedicated Frontend Developer, I specialize in building responsive, performance-driven websites and web applications. With expertise in <span className="text-red-600 font-bold">HTML</span>, 
     <span className="text-blue-600">CSS</span>,
     <span className="text-yellow-500 font-bold">TypeScript</span>, and cutting-edge frameworks like <span className="text-black font-extrabold underline">Next.js</span>  and React, I create seamless digital experiences. I'm also proficient in <span className="text-blue-800">Tailwind CSS</span>, which allows me to craft highly customizable, modern user interfaces with precision and efficiency.
 
-I’m passionate about leveraging the latest technologies and best practices to bring ideas to life. My approach focuses on clean, maintainable code and ensuring a smooth user experience across all devices. Let’s collaborate to transform your vision into reality!</p>
+I&apos;m passionate about leveraging the latest technologies and best practices to bring ideas to life. My approach focuses on clean, maintainable code and ensuring a smooth user experience across all devices. Let&apos;s collaborate to transform your vision into reality!</p>
 </div>
 
 <div className="flex justify-center ">
@@ -150,4 +150,4 @@ I’m passionate about leveraging the latest technologies and best practices to 
   ) 
 }
 
-export default home
+export default Home

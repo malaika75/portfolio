@@ -22,6 +22,10 @@ const nextConfig = {
             {
                 protocol: 'https',
                 hostname: 'trotsoptorhout.be'
+            },
+            {
+                protocol: 'https',
+                hostname: 'img.freepik.com'
             }
         ]
     }
