@@ -47,7 +47,7 @@ scrollTrigger:{
    <p className="sm:mx-6 sm:w-9/12 text-gray-700 font-mono font-semibold w-72 mx-4">
     As a dedicated Frontend Developer, I specialize in building responsive, performance-driven websites and web applications. With expertise in <span className="text-red-600 font-bold">HTML</span>, 
     <span className="text-blue-600">CSS</span>,
-    <span className="text-yellow-500 font-bold">TypeScript</span>, and cutting-edge frameworks like <span className="text-black font-extrabold underline">Next.js</span>  and React, I create seamless digital experiences. I'm also proficient in <span className="text-blue-800">Tailwind CSS</span>, which allows me to craft highly customizable, modern user interfaces with precision and efficiency.
+    <span className="text-yellow-500 font-bold">TypeScript</span>, and cutting-edge frameworks like <span className="text-black font-extrabold underline">Next.js</span>  and React, I create seamless digital experiences. I&apos;m also proficient in <span className="text-blue-800">Tailwind CSS</span>, which allows me to craft highly customizable, modern user interfaces with precision and efficiency.
 
 I&apos;m passionate about leveraging the latest technologies and best practices to bring ideas to life. My approach focuses on clean, maintainable code and ensuring a smooth user experience across all devices. Let&apos;s collaborate to transform your vision into reality!</p>
 </div>
