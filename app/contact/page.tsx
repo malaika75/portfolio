@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-function contact() {
+function Contact() {
   return (
     <section>
     
@@ -31,7 +31,7 @@ function contact() {
     </div>    
 
 <div className=''>
-  <textarea className='block mt-16 border-2 border-black  rounded w-full -ml-8' rows={4} placeholder='write your message here' ></textarea>
+  <textarea className='block mt-16 border-2 border-black  rounded w-full md:-ml-8' rows={4} placeholder='write your message here' ></textarea>
 
   <button type='button' onClick={() => window.location.href = 'mailto:malaika57680@gmail.com'}
    className=' px-2 ml-4 md:text-2xl bg-slate-600 md:py-4 md:px-20 mt-10 items-center text-white font-semibold border-4 border-black font-mono hover:scale-110 md:ml20'>send message</button></div>
@@ -45,4 +45,4 @@ function contact() {
   )
 }
 
-export default contact
+export default Contact

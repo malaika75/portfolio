@@ -7,7 +7,7 @@ function Footer() {
 <footer>
 <div className='flex justify-center w-full'>
     <div>
-      <Image src="https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=360" alt="footer-bg"  className='h-96'/>
+      <Image src="https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=360" alt="footer-bg"  className='h-96' width={800} height={100}/>
         </div>
 <div className='mt-16 sm:mr-20 mr-8'>
 <p className='md:text-3xl font-bold'>Front-end Developer | Passionate about creating seamless user experiences.</p>
