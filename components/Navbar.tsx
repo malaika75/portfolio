@@ -34,7 +34,7 @@ function Navbar() {
     setMenuOpen(!menuOpen)
   }
   return (
-    <div className='bg-teal-500 w-full  mx:auto  flex text-2xl py-6 justify-between'>
+    <div className='md:bg-teal-500 bg-teal-700 w-full  mx:auto  flex text-2xl py-6 justify-between'>
 
         <h1 ref={logoref} className='text-3xl sm:text-5xl md:text-3xl lg:text-5xl text-white mx-4 sm:mx-12 font-mono'>port
           <span className='sm:text-7xl text-4xl text-black'>fo</span>lio...</h1>

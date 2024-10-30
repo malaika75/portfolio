@@ -54,13 +54,13 @@ I&apos;m passionate about leveraging the latest technologies and best practices 
 
 <div className="flex justify-center ">
   <Link href="/contact">
-<button className="bg-teal-500 py-3 ml-26 sm:ml-28 pt-4 sm:mt-8 md:mt-10 px-5 text-3xl font-semibold  hover:scale-150 rounded border-2 border-gray-700">HIRE ME <i className="fa-solid fa-arrow-right"></i></button>
+<button className="bg-teal-500 py-3 mt-6 ml-26 sm:ml-28 pt-4 sm:mt-8 md:mt-10 px-5 text-3xl font-semibold  hover:scale-150 rounded border-2 border-gray-700">HIRE ME <i className="fa-solid fa-arrow-right"></i></button>
 </Link>
 </div>
 
 {/* //page 2  */}
 
-<div className="ml-8 flex bg-teal-500 mt-20 mx-8  border-2 border-gray-900 shadow-2xl shadow-gray-900 rounded sm:h-1/2">
+<div className="ml-6 flex bg-teal-500 mt-20 md:ml-20 xl:ml-28  border-2 border-gray-900 shadow-2xl shadow-gray-900 rounded sm:h-1/2 w-10/12">
 
 <section className="border-2 border-gray-600 bg-white rounded py-10  shadow-2xl shadow-gray-900 transform translate-y-20 sm:mx-11 mx-1 w-11/12">
 
@@ -108,16 +108,16 @@ I&apos;m passionate about leveraging the latest technologies and best practices 
 <div className="grid grid-cols-1  lg:grid-cols-2 sm:flex-row">
 <div className="flex flex-col gap-10">
     <div className="h-12/12 w-96 relative group mt-32 sm:ml-20 xl:ml-52 overflow-hidden">
-      <Image src="https://www.coolmathgames.com/sites/default/files/TicTacToe_OG-logo.jpg" alt="game-pic" className="border-2 border-gray-800 cursor-pointer object-cover max-w-[375px]" width={500} height={500}/>
+      <Image src="https://www.coolmathgames.com/sites/default/files/TicTacToe_OG-logo.jpg" alt="game-pic" className="border-2 border-gray-800 cursor-pointer object-cover max-w-[350px] sm:max-w-[380px] ml-2" width={500} height={500}/>
     
-<div className="absolute h-80 w-96 object-cover inset-0 flex flex-col justify-center text-center bg-teal-700 bg-opacity-0 group-hover:bg-opacity-100 cursor-pointer opacity-0 group-hover:opacity-100 transform translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out text-3xl text-white z-10">
+<div className="absolute h-[300px] sm:max-w-[380px] max-w-[350px] ml-2 object-cover inset-0 flex flex-col justify-center text-center bg-teal-700 bg-opacity-0 group-hover:bg-opacity-100 cursor-pointer opacity-0 group-hover:opacity-100 transform translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out text-3xl text-white z-10">
   <h3 className="font-bold">Tic tac toe game</h3>
   <a href="https://github.com/malaika75/frontend-projects/tree/main/TIC%20TAC%20TOE" target="_blank" className="text-black mt-4 text-6xl"><i className="fa-brands fa-square-github"></i></a>
   <a href="https://tic-tac-toegame-pearl.vercel.app/" target="_blank"><button className="bg-teal-500 text-black text-2xl  font-semibold py-2 px-2 mt-4 border-2 border-gray-500 hover:bg-black hover:text-white rounded-xl mb-20">view project</button></a>
 </div>
 </div>
 
-<div className="h-80 sm:w-96 z-0 ml-4 sm:ml-20 xl:ml-52 max-w-[320px]">
+<div className="h-48 sm:w-96 z-0 ml-4 sm:ml-20 xl:ml-52 max-w-[320px]">
   <h2 className="font-serif sm:text-3xl text-2xl font-bold sm:mt-8">TIC TAC TOE GAME</h2>
   <p className="sm:font-semibold">A responsive two-player Tic-Tac-Toe game built with HTML, CSS, and TypeScript. Players alternate turns on a classic 3x3 grid with a clean and intuitive interface.</p>
 </div>
@@ -127,9 +127,9 @@ I&apos;m passionate about leveraging the latest technologies and best practices 
 
 <div className="flex flex-col gap-10">
 <div className="h-12/12 w-96 relative group lg:mt-32 sm:ml-20 lg:mx-4 xl:ml-20 overflow-hidden flex justify-center">
-      <Image src="https://foundry360.com/wp-content/uploads/2020/05/art-article-raas-1.jpg" alt="game-pic" className="border-2 border-gray-800 cursor-pointer object-cover max-w-[375px]" width={500} height={500} />
+      <Image src="https://foundry360.com/wp-content/uploads/2020/05/art-article-raas-1.jpg" alt="game-pic" className="border-2 border-gray-800 cursor-pointer object-cover max-w-[350px] sm:max-w-[380px] mr-4" width={500} height={500} />
     
-<div className="absolute h-80 w-96 object-cover inset-0 flex flex-col justify-center text-center bg-teal-700 bg-opacity-0 group-hover:bg-opacity-100 cursor-pointer opacity-0 group-hover:opacity-100 transform translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out text-3xl text-white z-10">
+<div className="absolute h-[300px] sm:max-w-[375px] max-w-[350px] ml-2 sm:ml-0 object-cover inset-0 flex flex-col justify-center text-center bg-teal-700 bg-opacity-0 group-hover:bg-opacity-100 cursor-pointer opacity-0 group-hover:opacity-100 transform translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out text-3xl text-white z-10">
   <h3 className="font-bold">Recipe finder app</h3>
 
   <a href="https://github.com/malaika75/recipe-finder-app.git" target="_blank" className="text-black mt-4 text-6xl"><i className="fa-brands fa-square-github"></i></a>
@@ -137,9 +137,9 @@ I&apos;m passionate about leveraging the latest technologies and best practices 
 </div>
 </div>
 
-<div className="h-80 w-96 z-0 ml-4 sm:ml-20 lg:mx-8 xl:ml-20 max-w-[320px]">
-  <h2 className="font-serif sm:text-3xl text-2xl font-bold mt-8">Recipe finder app</h2>
-  <p className="sm:font-semibold mb-4">A user-friendly app built with Next.js and Tailwind CSS, allowing users to search for recipes by ingredients or cuisine. The app features a clean interface, designed for smooth navigation on any device.</p>
+<div className="h-40 w-96 z-0 ml-4 sm:ml-20 lg:mx-8 xl:ml-20 max-w-[320px]">
+  <h2 className="font-serif sm:text-3xl text-2xl font-bold sm:mt-8">Recipe finder app</h2>
+  <p className="sm:font-semibold sm:mb-4">A user-friendly app built with Next.js and Tailwind CSS, allowing users to search for recipes by ingredients or cuisine. The app features a clean interface, designed for smooth navigation on any device.</p>
 </div>
 </div>
 </div>
