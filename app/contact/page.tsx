@@ -9,7 +9,7 @@ function Contact() {
 <div className='flex justify-between'>
 
   <h1 className='w-20 text-3xl sm:text-5xl lg:text-9xl md:text-7xl lg:ml-24 font-bold md:mt-16 mt-20 ml-3'>GET <span className='text-teal-600'>IN</span> TOUCH</h1>
-    <Image src="https://trotsoptorhout.be/wp-content/uploads/2024/02/Contacteer-ons.jpg" alt='contact icons' width={200} height={100} quality={100} className='sm:h-80 xl:ml-80 sm:w-7/12 ml-6' />
+    <Image src="https://t4.ftcdn.net/jpg/15/30/82/05/360_F_1530820506_uJAoXZdMuMlCDthiOe6JUanJAfSX5baJ.jpg" alt='contact icons' width={200} height={100} quality={100} className='sm:h-80 xl:ml-80 sm:w-7/12 ml-6' unoptimized/>
 </div> 
  
 <div className='text-center mt-4 mb-6 lg:ml-[500px] lg:relative bottom-28'>

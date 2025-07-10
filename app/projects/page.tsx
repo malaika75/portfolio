@@ -31,7 +31,7 @@ function Project() {
 
 <div className="flex flex-col gap-10">
 <div className="h-12/12 w-96 relative group lg:mt-20 sm:ml-20 lg:mx-4 xl:ml-20 overflow-hidden flex justify-center">
-      <Image src="https://foundry360.com/wp-content/uploads/2020/05/art-article-raas-1.jpg" alt="game-pic" className="border-2 border-gray-800 cursor-pointer object-cover max-w-[300px] sm:max-w-[380px] mr-16 sm:mr-0" width={500} height={500}/>
+      <Image src="https://www.torrancememorial.org/app/files/public/7b0b1e32-5628-499f-b664-6594912a1318/recipe%20apps.jpeg" alt="game-pic" className="border-2 border-gray-800 cursor-pointer object-cover max-w-[300px] sm:max-w-[380px] mr-16 sm:mr-0" width={500} height={500}/>
     
 <div className="absolute h-[300px] sm:max-w-[380px] max-w-[300px] ml-2 sm:ml-0 object-cover inset-0 flex flex-col justify-center text-center bg-teal-700 bg-opacity-0 group-hover:bg-opacity-100 cursor-pointer opacity-0 group-hover:opacity-100 transform translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out sm:text-3xl text-xl text-white z-10">
   <h3 className="font-bold">Recipe finder app</h3>

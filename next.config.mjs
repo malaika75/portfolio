@@ -13,7 +13,7 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
-                hostname: 'foundry360.com'
+                hostname: 'www.torrancememorial.org'
             },
             {
                 protocol: 'https',
@@ -26,6 +26,10 @@ const nextConfig = {
             {
                 protocol: 'https',
                 hostname: 'img.freepik.com'
+            },
+            {
+                protocol: 'https',
+                hostname: 't4.ftcdn.net'
             }
         ]
     }
