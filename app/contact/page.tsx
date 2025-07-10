@@ -20,28 +20,7 @@ function Contact() {
       <a href='https://github.com/malaika75' target='_blank'><i className="fa-brands fa-square-github"></i></a>
 </div>
       </div>  
-
-<form className='mb-40 md:max-w-4xl md:mx-auto w-9/12 ml-9 flex justify-center items-center sm:ml-20'> 
-<div className='shadow-[0px_0px_20px_10px_rgba(0,0,0,0.5)] md:px-20 md:py-7 md:space-x-16 bg-slate-400 p-8'>
-
-<div className='md:flex mt-8 md:space-x-6 space-x-2'>
-<input type="text" placeholder='Enter your name' required className='border-2 border-black rounded text-black md:h-14 h-10 md:w-1/2 md:p-4 ml-2 mt-2 w-9/12'/>
-
- <input type='email' placeholder='Enter your email' required className='border-2 border-black rounded md:h-14 md:w-1/2 md:p-4 mt-2 w-9/12 h-10'/>
-    </div>    
-
-<div className=''>
-  <textarea className='block mt-16 border-2 border-black  rounded w-full md:-ml-8' rows={4} placeholder='write your message here' ></textarea>
-
-  <button type='button' onClick={() => window.location.href = 'mailto:malaika57680@gmail.com'}
-   className=' px-2 ml-4 md:text-2xl bg-slate-600 md:py-4 md:px-20 mt-10 items-center text-white font-semibold border-4 border-black font-mono hover:scale-110 md:ml20'>send message</button></div>
-</div>
-      
-</form> 
-
-
-    
-    </section>
+</section>
   )
 }
 
