@@ -29,7 +29,7 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
-                hostname: 't4.ftcdn.net'
+                hostname: 'media.istockphoto.com'
             }
         ]
     }
